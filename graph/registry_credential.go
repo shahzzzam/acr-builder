@@ -34,7 +34,7 @@ type RegistryCredential struct {
 	Password      string `json:"password,omitempty"`
 	PasswordType  string `json:"passwordProviderType,omitempty"`
 	Identity      string `json:"identity,omitempty"`
-	ArmResourceID string `json:"armResourceId,omitempty"`
+	ArmResourceID string `json:"armResource,omitempty"`
 }
 
 // CreateRegistryCredentialFromString creates a RegistryCredential object from a serialized string.
